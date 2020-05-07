@@ -1,0 +1,20 @@
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\Views\AboutCovid.xaml.g.cs
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\Views\AboutDevelopers.xaml.g.cs
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\Views\Hotlines.xaml.g.cs
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\Views\News Feed.xaml.g.cs
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\Views\Statistics.xaml.g.cs
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\Views\StatusChecker.xaml.g.cs
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.AssemblyInfoInputs.cache
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.AssemblyInfo.cs
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\bin\Debug\netstandard2.0\CovidApp.deps.json
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\bin\Debug\netstandard2.0\CovidApp.dll
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\bin\Debug\netstandard2.0\ref\CovidApp.dll
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\bin\Debug\netstandard2.0\CovidApp.pdb
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.dll
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\ref\CovidApp.dll
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.pdb
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.csprojAssemblyReference.cache
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.csproj.CoreCompileInputs.cache
+C:\Users\ayyor\source\repos\JAFJ\CovidApp\CovidApp\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CovidApp.Views.Statistics"
+             Title="Statistics">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="World Statistics" x:Name="Btn_Refresh" Clicked="Btn_Refresh_Clicked" TextColor="Red" FontSize="Large"></Button>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="5,0,0,5" Text="Date Updated:" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" x:Name="Updated"></Label>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" Margin="5,0,5,5">
+                    <Label Margin="5,0,0,0" Text="Number of Affected Countries" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="AffectedCountries" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,0" Text="Number of Cases" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="Cases" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,0" Text="Number of New Cases Today" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="CasesToday" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,0" Text="Number of Recovered" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="CasesRecovered" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,0" Text="Number of Deaths" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="Deaths" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,0" Text="Number of Deaths Today" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="DeathsToday" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Statistics by Country" x:Name="Btn_RefreshC" Clicked="Btn_RefreshC_Clicked" TextColor="Red" FontSize="Large"></Button>
+                </StackLayout>
+                <Picker Title="Select a Country" TitleColor="Red" x:Name="countryList" IsVisible="False" SelectedIndexChanged="countryList_SelectedIndexChanged">
+                </Picker>
+                <StackLayout Orientation="Horizontal" IsVisible="False" x:Name="SL1">
+                    <Image x:Name="countryFlag" WidthRequest="40"></Image>
+                    <Label Margin="5,0,0,5" Text="Date Updated:" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" x:Name="UpdatedC"></Label>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" Margin="5,0,5,5" IsVisible="False" x:Name="SL2">
+                    <Label Margin="5,0,0,0" Text="Number of Cases" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="CasesC" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,0" Text="Number of New Cases Today" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="CasesTodayC" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,0" Text="Number of Recovered" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="CasesRecoveredC" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,0" Text="Number of Deaths" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="DeathsC" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,0" Text="Number of Deaths Today" TextColor="White" HorizontalTextAlignment="Center"></Label>
+                    <Label Margin="5,0,0,5" x:Name="DeathsTodayC" TextColor="Yellow" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

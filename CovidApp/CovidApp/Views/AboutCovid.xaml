@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CovidApp.Views.AboutCovid"
+             Title="About COVID-19">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout>
+                <Label Margin="10,10,0,10" Text="Causative Agent" TextColor="Red" FontSize="Medium"></Label>
+                <Label Margin="10,5,10,5" Text="COVID-19 is a disease caused by corona virus. Corona virus is a type of common virus that infects humans, typically leading to an upper respiratory infection (URI). There are seven different types of human coronavirus that have been identified. Most people will be infected with at least one type of coronavirus in their lifetime. The viruses are spread through the air by coughing and sneezing, close personal contact, touching an object or surface contaminated with the virus and rarely, by fecal contamination."></Label>
+                <Label Margin="10,5,10,5" Text="Examples of human coronaviruses that have been reported to cause severe symptoms include the MERS-CoV (the beta coronavirus that causes Middle East Respiratory Syndrome, or MERS), SARS-CoV (the beta coronavirus that causes severe acute respiratory syndrome, or SARS, and the new 2019 Novel Coronavirus (2019-nCoV) outbreak that began in Wuhan, China."></Label>
+                
+                <Label Margin="10,10,0,10" Text="Symptoms" TextColor="Red" FontSize="Medium"></Label>
+                <Label Margin="10,5,10,5" Text="According to the World Health Organization (WHO), most infected people will develop mild to moderate symptoms and recover without requiring special treatment. People who have underlying medical conditions and those over 60 years old have a higher risk of developing severe disease and death. Common symptoms include:"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Fever,"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Tiredness,"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Dry cough,"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Shortness of breathe,"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Aches and pains,"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Sore throat,"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="and very few people will report diarrhea, nausea or a runny nose."></Label>
+                </StackLayout>
+                <Label Margin="10,5,10,5" Text="People with mild symptoms who are otherwise healthy should self-isolate and contact their medical provider or a COVID-19 information line for advice on testing and referral. People with fever, cough or difficulty breathing should call their doctor and seek medical attention."></Label>
+                
+                <Label Margin="10,10,0,10" Text="Risk Factors" TextColor="Red" FontSize="Medium"></Label>
+                <Label Margin="10,5,10,5" Text="Risk factors for COVID-19 appear to include"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Recent travel from or residence in an area with ongoing community spread of COVID-19 as determined by CDC or WHO."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Close contact with someone who has COVID-19; such as when a family member or health care worker takes care of an infected person."></Label>
+                </StackLayout>
+                
+                <Label Margin="10,10,0,10" Text="Complications" TextColor="Red" FontSize="Medium"></Label>
+                <Label Margin="10,5,10,5" Text="Although most people with COVID-19 have mild to moderate symptoms, the disease can cause severe medical complications and lead to death in some people. Older adults or people with existing chronic medical conditions are at greater risk of becoming seriously ill with COVID-19. Complications can include:"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Pneumonia in both lungs."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Organ failure in several organs."></Label>
+                </StackLayout>
+
+                <Label Margin="10,10,0,10" Text="Prevention" TextColor="Red" FontSize="Medium"></Label>
+                <Label Margin="10,5,10,5" Text="To prevent infection and to slow transmission of COVID-19, do the following:"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Wash your hands regularly with soap and water or clean them with alcohol-based hand rub."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Avoid large events and mass gatherings."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Maintain at least 1-meter distance between you and people coughing or sneezing."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Avoid touching your face."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Cover your mouth and nose when coughing or sneezing."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Stay home if you feel unwell."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Refrain from smoking and other activities that weaken the lungs."></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                    <Label Margin="5,0,0,5" Text="Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people."></Label>
+                </StackLayout>
+
+                <Label Margin="10,5,10,5" Text="The CDC recommends wearing cloth face coverings in public places, such as the grocery store, where it's difficult to avoid close contact with others. It's especially suggested in areas with ongoing community spread. This updated advice is based on data showing that people with COVID-19 can transmit the virus before realizing they have it. Using masks in public may help reduce the spread from people who don't have symptoms. a9aa143457d44c2ba57d76347562c998"></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

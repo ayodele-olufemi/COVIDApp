@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "a81+Xs8TFGIwvdF5P13L+IDo1YXTfsuXQXfAB0npRx94NDPxZEFdoN4Isy5KHOarLBKWO9eo8Q0/O6RrYhGS1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp\\CovidApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ayyor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ayyor\\.nuget\\packages\\newsapi\\0.5.0\\newsapi.0.5.0.nupkg.sha512",
+    "C:\\Users\\ayyor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ayyor\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ayyor\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
+    "C:\\Users\\ayyor\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "C:\\Users\\ayyor\\.nuget\\packages\\xamarin.forms\\4.6.0.726\\xamarin.forms.4.6.0.726.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NewsAPI 0.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NewsAPI",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

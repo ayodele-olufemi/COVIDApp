@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CovidApp.Views.AboutDevelopers"
+             Title="About the Developers">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="5,0,5,10">
+                <Image Source="joyce.jpg" WidthRequest="100" VerticalOptions="Start"></Image>
+                <StackLayout>
+                    <Label Text="Aigbokhan Joyce" TextColor="Purple" FontAttributes="Bold"></Label>
+                    <Label Text="Graduate Teaching Assistant, MSU Mankato" FontSize="Small" TextColor="Gray" Margin="0,0,0,10" FontAttributes="Italic"></Label>
+                    <Label Text="I am highly focused, flexible, hardworking, enthusiastic  IT Graduate student. I am an efficient IT Analyst who excels at compiling, analyzing, validating and modeling data sets to enhance business operational performance. "></Label>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="5,5,5,10">
+                <Image Source="francis.jpeg" WidthRequest="100" VerticalOptions="Start"></Image>
+                <StackLayout>
+                    <Label Text="Eichie Francis" TextColor="Purple" FontAttributes="Bold"></Label>
+                    <Label Text="Graduate Teaching Assistant, MSU Mankato" FontSize="Small" TextColor="Gray" Margin="0,0,0,10" FontAttributes="Italic"></Label>
+                    <Label Text="I am a Graduate student in the Department Information Technology, Minnesota State University. My area of interest is in IT systems and network operations."></Label>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="5,5,5,10">
+                <Image Source="original.png.jpg" WidthRequest="100" VerticalOptions="Start"></Image>
+                <StackLayout>
+                    <Label Text="Anyarah Johnson" TextColor="Purple" FontAttributes="Bold"></Label>
+                    <Label Text="Graduate Teaching Assistant, MSU Mankato" FontSize="Small" TextColor="Gray" Margin="0,0,0,10" FontAttributes="Italic"></Label>
+                    <Label Text=" I am an Astute Information Technology Graduate student and an experience AWS devops engineer."></Label>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="5,5,5,10">
+                <Image Source="ayodele.jpg" WidthRequest="100" VerticalOptions="Start"></Image>
+                <StackLayout>
+                    <Label Text="Olufemi Ayodele" TextColor="Purple" FontAttributes="Bold"></Label>
+                    <Label Text="Intern, Hennepin County Government Center, Minneapolis" FontSize="Small" TextColor="Gray" Margin="0,0,0,10" FontAttributes="Italic"></Label>
+                    <Label Text="I am a Full Stack Software Developer. I'm currently seeking full time position as a Software Engineer. I love watching soccer."></Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

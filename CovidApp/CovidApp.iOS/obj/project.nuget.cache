@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "MdanzMiEdVY842wPyvyHYNCpRLHSRUhoVOmOn4hiqK9/qz2u/tBZOB2rcn1w6BbsB/t0OYy6giqJ1Bg1Qw1/CQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ayyor\\.nuget\\packages\\newsapi\\0.5.0\\newsapi.0.5.0.nupkg.sha512",
+    "C:\\Users\\ayyor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ayyor\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
+    "C:\\Users\\ayyor\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "C:\\Users\\ayyor\\.nuget\\packages\\xamarin.forms\\4.6.0.726\\xamarin.forms.4.6.0.726.nupkg.sha512"
+  ],
+  "logs": []
+}

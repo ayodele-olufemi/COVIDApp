@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CovidApp.Views.Hotlines"
+             Title="Hotlines">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Margin="10,10,0,10" Text="COVID-19 Hotline" TextColor="Red" FontSize="Medium"></Label>
+            <Label Margin="10,5,10,5" Text="If you have a fever, shortness of breath, sore throat, or cough that has developed in the last 3 weeks, please call the Mankato Clinic COVID-19 Hotline to speak to a nurse at 507-389-8548. If testing or medical care is recommended, you will be directed to Mankato Clinic's testing site or respiratory clinic for care.  The COVID-19 hotline is open:" ></Label>
+            <Button Text="Call 5073898548" x:Name="Btn_Call" Clicked="Btn_Call_Clicked"></Button>
+            <StackLayout Orientation="Horizontal">
+                <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                <Label Margin="5,0,0,5" Text="Monday–Friday 8am-8pm"></Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                <Label Margin="5,0,0,5" Text="Saturday 8am-5pm"></Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Margin="30,0,0,5" Text="&#x2022;" TextColor="RoyalBlue"></Label>
+                <Label Margin="5,0,0,5" Text="Sunday 11am-5pm"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

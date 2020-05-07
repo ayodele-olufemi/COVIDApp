@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CovidApp.Views.MainPage"
+             MasterBehavior="Popover">
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="Gray" Title="Menu" IconImageSource="tab_feed.png">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Button Text="About COVID-19" x:Name="Btn_AboutCovid" BackgroundColor="Yellow" Clicked="Btn_AboutCovid_Clicked"></Button>
+                    <Button Text="News Feed" x:Name="Btn_NewsFeed" BackgroundColor="Yellow" Clicked="Btn_NewsFeed_Clicked"></Button>
+                    <Button Text="Statistics" x:Name="Btn_Statistics" BackgroundColor="Yellow" Clicked="Btn_Statistics_Clicked"></Button>
+                    <Button Text="Status Checker" x:Name="Btn_StatusChecker" BackgroundColor="Yellow" Clicked="Btn_StatusChecker_Clicked"></Button>
+                    <Button Text="Hotlines" x:Name="Btn_Hotlines" BackgroundColor="Yellow" Clicked="Btn_Hotlines_Clicked"></Button>
+                    <Button Text="About Developers" x:Name="Btn_AboutDevelopers" BackgroundColor="Yellow" Clicked="Btn_AboutDevelopers_Clicked"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10" Title="About COVID-19">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="About COVID-19"></Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>
