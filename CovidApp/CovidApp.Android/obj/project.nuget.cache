@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2NxSKgh/twMLymZGUt0lEwFdXSBodYOC4/xxObfk/dWkOXszRbI+KDtezoBQreZ8ETJIRsX971ZxGhVyKdqsQA==",
+  "dgSpecHash": "jNluUN7byM+Ka+mxraVbKl40ojVJnu1EexeAvAoCp4rc0P2q5mfADfDKT78oiyRNoLsGqGn0ehmuUD+OuC1qRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayyor\\.nuget\\packages\\newsapi\\0.5.0\\newsapi.0.5.0.nupkg.sha512",
     "C:\\Users\\ayyor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",

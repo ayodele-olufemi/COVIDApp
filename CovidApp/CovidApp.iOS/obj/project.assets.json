@@ -1221,11 +1221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
       "projectName": "CovidApp.iOS",
-      "projectPath": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
+      "projectPath": "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
       "packagesPath": "C:\\Users\\ayyor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1246,8 +1246,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp\\CovidApp.csproj": {
-              "projectPath": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp\\CovidApp.csproj"
+            "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp\\CovidApp.csproj": {
+              "projectPath": "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp\\CovidApp.csproj"
             }
           }
         }

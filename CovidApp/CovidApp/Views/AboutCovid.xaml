@@ -102,7 +102,7 @@
                     <Label Margin="5,0,0,5" Text="Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people."></Label>
                 </StackLayout>
 
-                <Label Margin="10,5,10,5" Text="The CDC recommends wearing cloth face coverings in public places, such as the grocery store, where it's difficult to avoid close contact with others. It's especially suggested in areas with ongoing community spread. This updated advice is based on data showing that people with COVID-19 can transmit the virus before realizing they have it. Using masks in public may help reduce the spread from people who don't have symptoms. a9aa143457d44c2ba57d76347562c998"></Label>
+                <Label Margin="10,5,10,5" Text="The CDC recommends wearing cloth face coverings in public places, such as the grocery store, where it's difficult to avoid close contact with others. It's especially suggested in areas with ongoing community spread. This updated advice is based on data showing that people with COVID-19 can transmit the virus before realizing they have it. Using masks in public may help reduce the spread from people who don't have symptoms."></Label>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

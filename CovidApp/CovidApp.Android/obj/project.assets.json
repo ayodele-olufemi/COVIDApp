@@ -2059,11 +2059,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
       "projectName": "CovidApp.Android",
-      "projectPath": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
+      "projectPath": "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
       "packagesPath": "C:\\Users\\ayyor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2084,8 +2084,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp\\CovidApp.csproj": {
-              "projectPath": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp\\CovidApp.csproj"
+            "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp\\CovidApp.csproj": {
+              "projectPath": "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp\\CovidApp.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a81+Xs8TFGIwvdF5P13L+IDo1YXTfsuXQXfAB0npRx94NDPxZEFdoN4Isy5KHOarLBKWO9eo8Q0/O6RrYhGS1Q==",
+  "dgSpecHash": "7hYgMC1ycYX0O2juZl2YpL7qCA0nwVnLNqnQIsParRoNIRbVsgENRLhqFH3Krp/ByQuPJeRNN/vXqVrxBTBqrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayyor\\source\\repos\\JAFJ\\CovidApp\\CovidApp\\CovidApp.csproj",
+  "projectFilePath": "C:\\Users\\ayyor\\Source\\Repos\\ayodele-olufemi\\COVIDApp\\CovidApp\\CovidApp\\CovidApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayyor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
